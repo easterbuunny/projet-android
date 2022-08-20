@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bienvenue_dans_forget_me_not"
+            android:layout_margin="50dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/plants"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mes_plantes"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:layout_marginEnd="30dp"/>
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ajouter_une_plante"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="30dp"/>
+
+            <Button
+                android:id="@+id/watering"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/watering"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:padding="20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
