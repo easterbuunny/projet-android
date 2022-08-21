@@ -14,14 +14,18 @@ Le sujet est disponible [ici](docs/sujet.pdf). Le but est de construire une appl
 
 ## Structure du projet
 
-Il s'agit d'une structure du projet à main léver au début du développement : ![brouillon](docs/Structure_Brouillopn.png)
+Il s'agit d'une structure du projet à main léver au début du développement : 
+
+![brouillon](docs/Structure_Brouillopn.png)
 
 ## Capture d'écran
 
 La page d'accueil de notre application
+
 ![image](docs/Accueil.png)
 
 Ajouter une nouvelle plante
+
 ![image](docs/ajout.png)
 
 Arroser les plantes
@@ -29,5 +33,6 @@ Arroser les plantes
 ![image](docs/arroser.png)
 
 Le système de notification
+
 ![image](docs/notif.png)
 
